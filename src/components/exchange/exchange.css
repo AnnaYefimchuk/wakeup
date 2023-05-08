@@ -1,0 +1,72 @@
+.exchange-returne-block {
+    display: block;
+    max-width: 1525px;
+    margin: 0 auto;
+    padding-top: 6px;
+}
+
+.exchange-returne-block-element {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    gap: 35px;
+}
+
+.returne-content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 14px;
+    padding-left: 8px;
+}
+
+.returne-content-h1 {
+    font-size: 32px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    line-height: 1.1;
+    font-weight: normal;
+}
+
+.returne-content-p {
+    font-size: 14px;
+}
+
+.returne-page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 1200px;
+    line-height: 1.4;
+}
+
+.returne-page-firstlist {
+    margin-top: 3px;
+    line-height: 0.55;
+}
+
+.strong {
+    font: italic small-caps bold 12px/1 cursive;
+    line-height: 0.9;
+}
+
+.returne-page-ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 18px;
+    line-height: 2.1;
+}
+
+.returne-page-ul-li::before {
+    content: url('../../images/minus1.png');
+    margin-right: 8px;
+}
+
+.padding {
+    padding: 9px 0px;
+}
+
+.returne-page-feedback {
+    max-width: 700px;
+}

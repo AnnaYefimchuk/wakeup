@@ -1,0 +1,39 @@
+.about-us-container {
+    display: block;
+    max-width: 1525px;
+    margin: 0 auto;
+    padding-top: 6px;
+}
+
+.about-us-block-info {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    gap: 45px;
+}
+
+.about-us-content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 14px;
+
+}
+
+.about-us-h1 {
+    margin: 14px 0px 8px 0px;
+    letter-spacing: 2px;
+}
+
+.about-us-info {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    line-height: 1.4;
+    max-width: 1200px;
+}
+
+.margin-style {
+    margin: 0px;
+}

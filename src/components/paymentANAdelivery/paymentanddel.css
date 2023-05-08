@@ -1,0 +1,60 @@
+.pay-and-deliv-container {
+    display: block;
+    max-width: 1525px;
+    margin: 0 auto;
+    padding-top: 6px;
+}
+
+.pay-and-deliv-block{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    gap: 45px;
+}
+
+.pay-and-deliv-info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 14px;
+}
+
+.pay-and-deliv-h1 {
+    font-size: 32px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+
+.pay-and-deliv-page-content{
+    font-size: 14px;
+    line-height: 1.3;
+}
+
+.strong-pandd{
+    font:  small-caps bold 12px/1 cursive;
+    letter-spacing: 1.2px;
+}
+
+.strong-pandd-delivery{
+    font:  small-caps bold 12px/1 cursive;
+    padding-top: 30px;
+    letter-spacing: 1.2px;
+}
+
+
+.pay-and-deliv-delivery1{
+    padding-top: 5px;
+}
+
+.pay-and-deliv-delivery{
+    line-height: 0;
+}
+
+.pay-and-deliv-delivery2{
+    padding-top: 20px;
+}
+
+.margin-style {
+    margin: 0px;
+}

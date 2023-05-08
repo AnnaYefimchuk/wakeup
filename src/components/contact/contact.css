@@ -1,0 +1,54 @@
+.contact-container {
+    display: block;
+    max-width: 1525px;
+    margin: 0 auto;
+    padding-top: 6px;
+}
+
+.contact-block {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    gap: 45px; 
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 14px;
+}
+
+.contact-h1 {
+    font-size: 32px;
+    margin-top: 10px;
+    line-height: 1.1;
+    font-weight: normal;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    gap: 5px;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.contact-info-item {
+    padding-top: 8px;
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.icon-contact {
+    width: 11%;
+}
+
+.icon-contact-mail {
+    width: 9%;
+}

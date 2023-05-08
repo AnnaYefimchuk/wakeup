@@ -1,0 +1,146 @@
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header_top {
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    padding: 5px;
+    font-size: 12px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_top_linkMedia {
+    display: flex;
+    gap: 5px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    /*padding-left: 80px;*/
+}
+
+.header_top_wish {
+    display: flex;
+}
+
+.header-top-site-menu {
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    min-width: 1290px;
+}
+
+.header-top-wish-elements {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.socialNetworks_img {
+    width: 22px;
+}
+
+.header-top-site-menu-link {
+    display: flex;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.header-middle {
+    background-color: #ffebdf;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: 28px 0px 28px 40px;
+    gap: 25px
+}
+
+.header-middle-links {
+    display: flex;
+}
+
+.header-middle-link:hover {
+    background-color: #ffffff;
+}
+
+.header-middle-link {
+    text-decoration: none;
+    padding: 10px 70px;
+    color: black;
+}
+
+
+.header-middle-search-login {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 25px;
+}
+
+.header-middle-login:hover {
+    background-color: #ffefe5;
+}
+
+.header-middle-login {
+    display: flex;
+    gap: 5px;
+    padding: 7px 10px;
+}
+
+.form-element {
+    display: flex;
+    gap: 10px;
+}
+
+.form-element:hover {
+    background-color: #ffefe5;
+}
+
+.search-input {
+    border: none;
+    background-color: inherit;
+    width: 460px;
+    font-size: 16px;
+    word-spacing: 5px;
+}
+
+.search-btn {
+    border: none;
+    width: 20px;
+}
+
+
+.img-user,
+.img-size {
+    width: 16px;
+}
+
+.img-cart {
+    width: 29px;
+}
+
+.header-middle-cart {
+    position: relative;
+    text-align: center;
+    color: #ffebdf;
+    
+}
+
+.header-middle-cart-total {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
