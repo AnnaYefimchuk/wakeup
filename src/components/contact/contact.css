@@ -47,8 +47,10 @@
 
 .icon-contact {
     width: 11%;
+    opacity: 0.5;
 }
 
 .icon-contact-mail {
     width: 9%;
+    opacity: 0.5;
 }

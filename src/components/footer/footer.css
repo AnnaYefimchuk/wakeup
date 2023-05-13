@@ -1,0 +1,115 @@
+.footer {
+    background: #252525;
+    color: #ffebdf;
+    font-size: 12px;
+    height: 344px;
+    font-size: 14px;
+}
+
+.font12{
+    font-size: 12px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    min-width: 960px;
+    max-width: 1440px;
+    padding-top: 13px;
+    margin: 0 auto;
+}
+
+.footer-container-first-platform {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    margin-top: 150px;
+    gap: 5px;
+}
+
+.github-png {
+    width: 25%;
+    opacity: 0.5;
+}
+
+.mobile-png{
+    width: 13px;
+}
+
+.socialNetworks-beige-img{
+    width: 27px;
+    opacity: 0.5;
+}
+
+.footer-container-title{
+    margin-bottom: 0px;
+}
+
+.footer-container-first-mob{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer-container-second {
+    display: flex;
+    flex-direction: column;
+    margin-left: 230px;
+}
+
+.footer-container-second-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.footer-container-first-year {
+    padding-top: 5px;
+    margin-bottom: 0px;
+}
+
+.footer-container-first-brend{
+    margin-top: 2px;
+}
+
+.footer-container-second-link,
+.footer-container-third-link {
+    color: #ffebdf;
+    text-decoration: none;
+    padding-top: 6px;
+}
+
+.footer-container-third {
+    margin-left: 145px;
+}
+
+.footer-container-third-links {
+    display: flex;
+}
+
+.footer-container-third-ul {
+    padding: 0px;
+    margin-top: 3px;
+}
+
+.footer-container-third-linkMedia{
+    margin-top: 25px;
+}
+
+.footer-container-third-linkMedia-Element{
+    padding-right: 5px;
+}
+
+.footer-container-last {
+    display: flex;
+    gap: 58px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 100px;
+}
+
+.footer-container-last-phone{
+    padding-top: 30px;
+}
